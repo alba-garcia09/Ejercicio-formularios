@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios viejuners</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Tu:</legend>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduce aquí tu nombre" tabindex="1" autofocus><br><br>
+
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Introduce aquí tu apellido" tabindex="2" ><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" placeholder="Introduce aquí tu edad" tabindex="3"><br><br>
+
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="hombre" name="sexo" value="hombre" tabindex="4">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="sexo" value="mujer" tabindex="5">
+        <label for="mujer">Mujer</label><br>
+        <input type="radio" id="otros" name="sexo" value="otros" tabindex="6">
+        <label for="otros">Otros</label><br><br>
+
+        <label for="viejuner">Me siento viejuner:</label><br>
+        <input type="radio" id="si" name="viejuner" value="si" tabindex="7" >
+        <label for="si">Si</label><br>
+        <input type="radio" id="no" name="viejuner" value="no" tabindex="8" >
+        <label for="no">No</label><br><br>
+
+        <label for="más">Escribe algo sobre tí:</label><br>
+        <textarea name="más" rows="10" cols="30" placeholder="Cuéntanos un dato curioso sobre tí" tabindex="9">
+            </textarea> <br>
+     </fieldset> <br><br>
+
+    <fieldset>
+        <legend>Tus circunstancias:</legend>
+      
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" placeholder="Introduce tu correo" tabindex="10"><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu telefono" tabindex="11">
+       
+
+    </fieldset><br><br>
+
+    <input type="submit" value="Enviar" tabindex="12"><br><br>
+    <input type="reset" value="Reset" tabindex="13">
+    </form>
+</body>
+
+</html>
